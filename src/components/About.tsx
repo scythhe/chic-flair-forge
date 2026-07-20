@@ -1,5 +1,5 @@
 import { useLang } from "@/lib/i18n";
-import lounge from "@/assets/lounge.png.asset.json";
+import interior from "@/assets/interior.jpg.asset.json";
 
 export function About() {
   const { tr } = useLang();
@@ -15,7 +15,7 @@ export function About() {
       <div className="max-w-7xl mx-auto px-6 lg:px-10 grid lg:grid-cols-2 gap-16 items-center">
         <div className="relative">
           <div className="relative rounded-2xl overflow-hidden shadow-luxe aspect-[4/5]">
-            <img src={lounge.url} alt="Salon lounge" className="w-full h-full object-cover" />
+            <img src={interior.url} alt="Salon interior" className="w-full h-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent" />
           </div>
           <div className="absolute -bottom-8 -right-8 hidden md:block bg-card border border-primary/30 rounded-2xl p-6 shadow-luxe max-w-[240px]">

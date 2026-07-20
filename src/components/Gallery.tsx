@@ -2,13 +2,12 @@ import { useLang } from "@/lib/i18n";
 import hair from "@/assets/hair.jpg.asset.json";
 import nails from "@/assets/nails.jpg.asset.json";
 import interior from "@/assets/interior.jpg.asset.json";
-import lounge from "@/assets/lounge.png.asset.json";
 
 const shots = [
   { src: hair.url, span: "md:row-span-2", label: "Bridal" },
-  { src: interior.url, span: "", label: "Studio" },
+  { src: interior.url, span: "", label: "Interior" },
   { src: nails.url, span: "md:row-span-2", label: "Nails" },
-  { src: lounge.url, span: "", label: "Lounge" },
+  { src: interior.url, span: "", label: "Interior" },
   { src: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&q=80", span: "", label: "Color" },
   { src: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=80", span: "", label: "Makeup" },
 ];
